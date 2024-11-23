@@ -1,0 +1,15 @@
+{
+    "Name": "TheDarknessStar.OneClickEjection",
+    "Description": "Chinese: [F1]按鍵一鍵彈射 | English: [F1] Press one button to eject",
+    "Version": "1.0.0",
+    "LoadPriority": "4",
+    "Scripts": [
+		{
+			"Path": "One_Click_Ejection.nut",
+			"RunOn": "CLIENT && MP",
+			"ClientCallback": {
+				"After": "One_Click_Ejection_initialization"
+			}
+		}
+	]
+}
